@@ -33,6 +33,7 @@ namespace pg_2019
                 endpoints.MapGet("/", async context =>
                 {
                     await context.Response.WriteAsync("Hello World!");
+                    await context.Response.WriteAsync("hi pavani");
                 });
             });
         }
